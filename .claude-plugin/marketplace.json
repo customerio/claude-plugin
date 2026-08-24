@@ -1,0 +1,18 @@
+{
+  "name": "customerio",
+  "owner": {
+    "name": "Customer.io",
+    "email": "win@customer.io"
+  },
+  "metadata": {
+    "description": "Official Customer.io plugins for Claude — MCP connector plus skills for Journeys, Pipelines, Design Studio, and SDKs.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "customerio",
+      "source": "./plugins/customerio",
+      "description": "Connect Claude to Customer.io: shared MCP connector plus skills and slash commands for automations, profiles, Design Studio, Pipelines, and SDKs."
+    }
+  ]
+}

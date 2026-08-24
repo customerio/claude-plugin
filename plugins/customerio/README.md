@@ -1,0 +1,38 @@
+# Customer.io
+
+Claude plugin: official Customer.io **MCP connector** plus **skills** and
+**slash commands** for Journeys, Pipelines, Design Studio, and SDK setup.
+
+The git repository that contains it is
+[customerio/claude-plugin](https://github.com/customerio/claude-plugin).
+
+## Connect
+
+The plugin bundles the hosted connector (`mcp.customer.io`). The first tool
+call opens Customer.io OAuth: pick workspaces plus scopes. The account's home
+region is selected after login.
+
+Do not paste a personal MCP URL. Do not add a second Customer.io MCP server.
+
+## Skills
+
+| Skill | Use for | Then read from MCP |
+| --- | --- | --- |
+| `customerio` | Bootstrap, region, dry-run, routing | `cio_prime` |
+| `customerio-journeys` | Automations, profiles, segments, broadcasts, transactional, in-app | `fly-api` |
+| `customerio-design-studio` | Design Studio emails and components | `design-studio` |
+| `customerio-pipelines` | Sources, destinations, reverse ETL, data in/out | `cdp-api` |
+| `customerio-sdk` | JS / mobile SDK install, sandbox, go-live | `cio` |
+
+## Commands
+
+| Command | Does |
+| --- | --- |
+| `/customerio:campaign-report` | Metrics + recommendations for an automation |
+| `/customerio:build-segment` | Segment from a plain-English audience description |
+| `/customerio:draft-email` | Design Studio draft with QA review |
+| `/customerio:workspace-health` | Read-only deliverability/pipeline diagnosis |
+
+## License
+
+MIT. See the repository [LICENSE](../../LICENSE).

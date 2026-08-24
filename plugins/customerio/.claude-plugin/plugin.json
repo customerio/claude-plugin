@@ -1,0 +1,24 @@
+{
+  "name": "customerio",
+  "displayName": "Customer.io",
+  "version": "1.0.0",
+  "description": "Connect Claude to Customer.io with the official MCP connector, plus skills and slash commands for Journeys, Pipelines, Design Studio, and SDK setup.",
+  "author": {
+    "name": "Customer.io",
+    "email": "win@customer.io"
+  },
+  "homepage": "https://docs.customer.io/ai/mcp/claude/",
+  "repository": "https://github.com/customerio/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "customerio",
+    "customer.io",
+    "journeys",
+    "automations",
+    "pipelines",
+    "design-studio",
+    "mcp",
+    "email",
+    "messaging"
+  ]
+}
