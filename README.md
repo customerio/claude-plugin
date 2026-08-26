@@ -48,7 +48,7 @@ Do not paste a personal MCP URL. Do not add a second Customer.io MCP server.
 
 ## Docs
 
-- Setup: https://docs.customer.io/ai/mcp/claude/
+- Setup: https://docs.customer.io/ai/plugins/claude/
 - Publishing this repo: [docs/PUBLISH.md](docs/PUBLISH.md)
 
 ## License
