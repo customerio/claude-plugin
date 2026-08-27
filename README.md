@@ -4,11 +4,8 @@ Official Customer.io plugin for **Claude Code** and **Cowork**: the hosted
 **MCP connector** plus **skills** and **slash commands** for Journeys, Data
 Pipelines, Design Studio, and SDK setup.
 
-The skills mirror [customerio/cursor-plugin](https://github.com/customerio/cursor-plugin)
-1:1 — that repo is the source of truth for skill content; port changes here
-when they land there. Skills in git are thin routers: the real playbooks live
-on the MCP server (`cio_skills_read`) so they update with the product without
-a plugin release.
+Skills in git are thin routers: the real playbooks live on the MCP server
+(`cio_skills_read`) so they update with the product without a plugin release.
 
 ## Install
 
