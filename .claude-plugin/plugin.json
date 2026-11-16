@@ -1,7 +1,7 @@
 {
   "name": "customerio",
   "displayName": "Customer.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Connect Claude to Customer.io with the official MCP connector, plus skills and slash commands for Journeys, Pipelines, Design Studio, and SDK setup.",
   "author": {
     "name": "Customer.io",
