@@ -12,7 +12,7 @@
     {
       "name": "customerio",
       "source": "./",
-      "description": "Connect Claude to Customer.io: shared MCP connector plus skills and slash commands for automations, profiles, Design Studio, Pipelines, and SDKs."
+      "description": "Connect Claude to Customer.io: shared MCP connector plus skills and slash commands for automations, profiles, Design Studio, Pipelines, and SDKs. New to Customer.io? Create your account while you connect."
     }
   ]
 }

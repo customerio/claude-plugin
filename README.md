@@ -22,6 +22,9 @@ The plugin bundles the hosted connector (`mcp.customer.io`). The first tool
 call opens Customer.io OAuth: pick workspaces plus scopes. The account's home
 region is selected after login.
 
+No Customer.io account yet? The same window lets you create one with your email
+and a 6-digit code, then continues to the workspace and scope choice.
+
 Do not paste a personal MCP URL. Do not add a second Customer.io MCP server.
 
 ## Skills
