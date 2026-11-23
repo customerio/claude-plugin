@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Official Customer.io plugin for Claude — MCP connector plus skills for Journeys, Pipelines, Design Studio, and SDKs.",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
