@@ -42,7 +42,8 @@ CLI signup works too.
    call triggers Customer.io OAuth in the browser.
 2. Complete OAuth. Select workspaces and permission scopes (read / write /
    delete are granted independently). The account's home region is selected
-   after login — one URL serves both US and EU.
+   after login — one URL serves both US and EU, so connecting an existing
+   account needs no region choice.
 3. Do not add a second Customer.io MCP server.
 
 Do not paste a personal MCP URL. Do not put API keys or service-account tokens
