@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "Official Customer.io plugin for Claude, built on the Customer.io MCP connector.",
-    "version": "1.0.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
       "name": "customerio",
       "source": "./",
-      "description": "Connect Claude to Customer.io with the official MCP connector: build and analyze automations, segments and profiles in Journeys, draft Design Studio emails, add the SDKs to your apps, and set up integrations with your data warehouse, CRM and other tools."
+      "description": "Connect Claude to Customer.io with the official MCP connector: build and analyze automations, segments and profiles in Journeys, draft Design Studio emails, add the SDKs to your apps, and set up integrations with your data warehouse, CRM and other tools. New to Customer.io? Create your account while you connect."
     }
   ]
 }
